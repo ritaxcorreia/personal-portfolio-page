@@ -1,0 +1,107 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue";
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    color: #333333;
+    margin: 0px;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 220px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    margin-top: 0px;
+    background-color: #777777;
+    height: auto;
+    font-size: 16px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    float: right;
+}
+
+.nav-link:hover {
+    background-color: #555;
+    color: white;
+}
+
+@media screen and (max-width: 850px) {
+    .nav {
+        width: 100%;
+        height: auto;
+        position: sticky;
+        top: 0;
+    }
+    .nav-link {
+        float: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nav-link {
+        text-align: center;
+        float: center;
+    }
+}
+
+main {
+    background-color: #f2f3f4;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#welcome-section {
+    height: 100vh;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#projects {
+    height: 100vh;
+}
+
+#contact {
+    display: block;
+    height: 100vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+}
