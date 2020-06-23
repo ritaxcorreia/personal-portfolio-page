@@ -1,162 +1,56 @@
-<style>
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-      "Helvetica Neue";
-    font-size: 14px;
-    line-height: 1.5;
-    text-align: left;
-    color: #333333;
-  }
-  
-  img {
-  border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 5px;
-    width: 300px;
-  height: 100%;
-  }
-  
-  img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-  }
-  
-  #navbar {
-    position: sticky;
-    top: 0;
-    margin: 0;
-    padding: 0px;
-    width: 100%;
-    margin-top: 0px;
-    background-color: #777777;
-    height: auto;
-  font-size: 16px;
-  overflow: hidden;
-  text-align: center;
-  }
-  
-  #navbar a {
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-   float: right;
-  }
-  
-  /* Active/current link */
-  #navbar a .nav-link {
-    background-color: gray;
-    color: white;
-   float: right;
-  }
-  
-  /* Links on mouse-over */
-  #navbar a:hover:not(nav-link) {
-    background-color: #555;
-    color: white;
-  }
-  
-  main {
-    background-color: #f2f3f4;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 30;
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 40px;
-  }
-  
-  h2 {
-  font-size: 20px;
-  }
-  
-  h3 {
-  font-size: 30px;
-  text-align: center;
-  }
-  
-  #welcome-section {
-  height: 100vh;
-  text-align: center;
-  margin-top: 200px;
-  margin-bottom: 200px;
-  }
-  
-  #projects {
-    height: 100vh;
-  }
-  
-  #contact {
-  display: block;
-    height: 100vh;
-  margin-top: auto;
-  margin-bottom: auto;
-  text-align: center;
-  }
-  
-  /* On screens that are less than 850px wide, make the sidebar into a topbar */
-  @media screen and (max-width: 850px) {
-    #navbar {
-      width: 100%;
-      height: auto;
-      position: sticky;
-      top: 0;
-    }
-    #navbar a {
-      float: center;
-    }
-  
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-  @media screen and (max-width: 400px) {
-    #navbar a {
-      text-align: center;
-      float: center;
-    }
-  }
-</style>  
-
 <html>
-<main>
-  <nav id="navbar">
-    <div>
-<a class="nav-link" href="#contact">CONTACT</a>
-  <a class="nav-link" href="#projects">WORK</a>
-      <a class="nav-link" href="#welcome-section">ABOUT</a>
-      </div>
-</nav>
 
-    <section id="welcome-section">
-      <h1>Hey, I'm Rita</h1>
-      <h2>a web developer in the making</h2>
-      <p>After 10 years in project management, I'm teaching myself how to code. Here's a collection of my very first projects, done as part of a coding bootcamp taken in June 2020.</p>
-    </section>
-    <section id="projects">
-      <h3>These are some of my projects</h3>
-      <section class="project-tile">
-        <a href="https://annieeasley.netlify.app/"><img src="https://raw.githubusercontent.com/ritaxcorreia/tribute-page/master/annie-easley.png" alt="Annie Easley Tribute Page"></a>
-        <p><a href="https://annieeasley.netlify.app/">Tribute Page</a></p>
-      </section>
-      <section class="tech-doc-page">
-        <a href="https://codepen.io/ritacorreia/full/oNbBEmp"><img src="https://raw.githubusercontent.com/ritaxcorreia/Tech-documentation-page/master/tech-doc-page2.png" alt="Technical Documentation Page"></a>
-        <p><a href="https://codepen.io/ritacorreia/full/oNbBEmp">Technical Documentation Page</a></p>
-      </section>
+<head>
+    <title>Rita Correia - Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
 
-      <section class="product-landing-page">
-        <a href="https://codepen.io/ritacorreia/full/rNxjaLo"><img src="https://raw.githubusercontent.com/ritaxcorreia/product-landing-page/master/wandleco_page.png" alt="Product Landing Page"></a>
-        <p><a href="https://codepen.io/ritacorreia/full/rNxjaLo">Product Landing Page</a></p>
-      </section>
+<body>
+    <header class="nav">
+        <nav>
+            <a class="nav-link" href="#contact">CONTACT</a>
+            <a class="nav-link" href="#projects">WORK</a>
+            <a class="nav-link" href="#welcome-section">ABOUT</a>
+        </nav>
+    </header>
+    <main>
 
-      <section class="survey-form-page">
-        <a href="https://codepen.io/ritacorreia/full/WNroWPa"><img src="https://raw.githubusercontent.com/ritaxcorreia/survey-form-page/master/survey-form.png" alt="Survey Form Page"></a>
-        <p><a href="https://codepen.io/ritacorreia/full/WNroWPa">Survey Form Page</a></p>
-      </section>
-    </section>
-  
-    <section id="contact">
-      <h3>Contact</h3>
-      <h2>Feel free to get in touch on:</h2>
-      <p><a id="profile-link" href="https://github.com/ritaxcorreia" alt="Rita Correia's Github" target="_blank">Github</a></p>
-      <p><a href="https://twitter.com/ritaxcorreia" alt="Rita Correia's Twitter" target="_blank">Twitter</a></p>
-</section>
-</main>
+        <section id="welcome-section" class="section">
+            <h1>Hey, I'm Rita</h1>
+            <h2>a web developer in the making</h2>
+            <p>After 10 years in project management, I'm teaching myself how to code. Here's a collection of my very first projects, done as part of a coding bootcamp taken in June 2020.</p>
+        </section>
+
+        <section class="section">
+            <h3>These are some of my projects</h3>
+            <section>
+                <a href="https://annieeasley.netlify.app/"><img src="https://raw.githubusercontent.com/ritaxcorreia/tribute-page/master/annie-easley.png" alt="Annie Easley Tribute Page"></a>
+                <p><a href="https://annieeasley.netlify.app/">Tribute Page</a></p>
+            </section>
+            <section>
+                <a href="https://codepen.io/ritacorreia/full/oNbBEmp"><img src="https://raw.githubusercontent.com/ritaxcorreia/Tech-documentation-page/master/tech-doc-page2.png" alt="Technical Documentation Page"></a>
+                <p><a href="https://codepen.io/ritacorreia/full/oNbBEmp">Technical Documentation Page</a></p>
+            </section>
+
+            <section>
+                <a href="https://codepen.io/ritacorreia/full/rNxjaLo"><img src="https://raw.githubusercontent.com/ritaxcorreia/product-landing-page/master/wandleco_page.png" alt="Product Landing Page"></a>
+                <p><a href="https://codepen.io/ritacorreia/full/rNxjaLo">Product Landing Page</a></p>
+            </section>
+
+            <section>
+                <a href="https://codepen.io/ritacorreia/full/WNroWPa"><img src="https://raw.githubusercontent.com/ritaxcorreia/survey-form-page/master/survey-form.png" alt="Survey Form Page"></a>
+                <p><a href="https://codepen.io/ritacorreia/full/WNroWPa">Survey Form Page</a></p>
+            </section>
+        </section>
+
+        <section id="contact" class="section">
+            <h3>Contact</h3>
+            <h2>Feel free to get in touch on:</h2>
+            <p><a id="profile-link" href="https://github.com/ritaxcorreia" alt="Rita Correia's Github" target="_blank">Github</a></p>
+            <p><a href="https://twitter.com/ritaxcorreia" alt="Rita Correia's Twitter" target="_blank">Twitter</a></p>
+        </section>
+    </main>
+    <footer>Rita Correia 2020</footer>
+</body>
+
 </html>
