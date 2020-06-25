@@ -107,9 +107,15 @@ h3 {
     position: absolute;
 }
 
+.project-container {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 350px 350px;
+}
+
 .project {
-    display: flex;
-    flex-direction: column;
+    grid-column: auto;
+    grid-row: auto;
 }
 
 footer {
