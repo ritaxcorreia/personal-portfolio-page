@@ -4,7 +4,8 @@ body {
     line-height: 1.5;
     text-align: left;
     color: #333333;
-    margin: 0px;
+    margin: 0;
+    background-color: #f2f3f4;
 }
 
 img {
@@ -70,6 +71,7 @@ img:hover {
 main {
     background-color: #f2f3f4;
     text-align: center;
+    margin: 30px;
 }
 
 h1 {
@@ -88,13 +90,12 @@ h3 {
 #welcome-section {
     height: 100vh;
     text-align: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 #projects {
     height: 100vh;
-    position: relative;
 }
 
 #contact {
