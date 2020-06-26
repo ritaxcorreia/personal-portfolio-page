@@ -25,7 +25,7 @@ img {
     padding: 0px;
     width: 100%;
     margin-top: 0px;
-    background-color: #777;
+    background-color: #333333;
     height: auto;
     font-size: 16px;
     overflow: hidden;
@@ -69,7 +69,7 @@ main {
 
 h1 {
     font-size: 40px;
-    text-shadow: 0px 10px 50px gray;
+    text-shadow: 1px 1px 15px #f2f3f4;
 }
 
 h2 {
@@ -82,9 +82,17 @@ h3 {
 }
 
 #welcome-section {
-    height: 100vh;
+    background-image: url("https://raw.githubusercontent.com/ritaxcorreia/personal-portfolio-page/master/images/welcome-bg.jpg");
+    background-color: #f2f3f4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /*
+    /* Resize the background image to cover the entire container */
+    box-shadow: 5px 10px #f2f3f4;
     text-align: center;
-    padding-top: 200px;
+    text-shadow: 1px 1px 15px #f2f3f4;
+    padding-top: 100px;
     padding-bottom: 200px;
 }
 
@@ -97,8 +105,14 @@ h3 {
 #contact {
     height: 100vh;
     text-align: center;
+    text-shadow: 1px 1px 20px #f2f3f4;
     padding-top: 200px;
     padding-bottom: 0px;
+    background-image: url("https://raw.githubusercontent.com/ritaxcorreia/personal-portfolio-page/master/images/contact-bg.jpg");
+    background-color: #f2f3f4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 .project-container {
