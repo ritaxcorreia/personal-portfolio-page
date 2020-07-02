@@ -105,6 +105,7 @@ h3 {
 }
 
 #contact {
+    margin: auto;
     height: 100vh;
     text-align: center;
     text-shadow: 1px 1px 20px #f2f3f4;
@@ -162,7 +163,7 @@ h3 {
 .project-text-link {
     display: block;
     font-size: 16px;
-    color: #444;
+    color: #222;
     text-decoration: none;
     padding: 10px;
     transition: color 0.1s;
@@ -188,4 +189,8 @@ footer {
     font-size: 12px;
     text-align: center;
     bottom: 0px;
+}
+
+li {
+    margin: auto;
 }
