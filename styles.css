@@ -64,21 +64,22 @@ img {
 main {
     background-color: #f2f3f4;
     text-align: center;
-    margin: 30px;
 }
 
 h1 {
     font-size: 40px;
-    text-shadow: 1px 1px 15px #f2f3f4;
+    color: black;
 }
 
 h2 {
     font-size: 20px;
+    color: black;
 }
 
 h3 {
     font-size: 30px;
     text-align: center;
+    color: black;
 }
 
 #welcome-section {
@@ -100,6 +101,7 @@ h3 {
     min-height: 100vh;
     padding-top: 50px;
     text-align: center;
+    margin: 30px;
 }
 
 #contact {
